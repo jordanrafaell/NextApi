@@ -13,11 +13,11 @@
     // Gera arquivos de mapa de origem (.map) para depuração.
     "sourceMap": true,
     // Define o diretório onde os arquivos JavaScript compilados serão colocados.
-    "outDir": "./app"
+    "outDir": "./src/app"
   },
   // Inclui todos os arquivos .ts dentro da pasta backend/src e suas subpastas.
   "include": [
-    "backend/src/**/*.ts"
+    "src/**/*.ts",
   ],
   // Exclui arquivos de módulos (node_modules) e arquivos de teste (se existir) da compilação.
   "exclude": [
