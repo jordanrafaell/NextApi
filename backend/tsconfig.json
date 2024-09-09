@@ -12,6 +12,7 @@
     "preserveConstEnums": true,
     // Gera arquivos de mapa de origem (.map) para depuração.
     "sourceMap": true,
+    "esModuleInterop": true,
     // Define o diretório onde os arquivos JavaScript compilados serão colocados.
     "outDir": "./src/app"
   },
