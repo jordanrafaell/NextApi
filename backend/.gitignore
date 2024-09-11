@@ -1,0 +1,22 @@
+# Diretórios de dependências
+node_modules/
+# Arquivos e diretórios de build
+build/
+dist/
+src/app/
+# Arquivos de configuração do TypeScript
+*.tsbuildinfo
+# Arquivos de configuração do Prettier
+.prettierignore
+# Arquivos de configuração do ESLint
+.eslintrc.js
+# Arquivos de cache
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+# Arquivos de ambiente
+.env
