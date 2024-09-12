@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    // Define o módulo de sistema para CommonJS, utilizado em Node.js.
+    "module": "commonjs",
+    // Define a versão alvo do JavaScript para ES6 (ECMAScript 2015).
+    "target": "es6",
+    // Garante que todas as variáveis e parâmetros sejam explicitamente tipados.
+    "noImplicitAny": true,
+    // Remove comentários do código gerado durante a compilação.
+    "removeComments": true,
+    // Preserva enums constantes durante a compilação.
+    "preserveConstEnums": true,
+    // Gera arquivos de mapa de origem (.map) para depuração.
+    "sourceMap": true,
+    // Define o diretório onde os arquivos JavaScript compilados serão colocados.
+    "outDir": "./src/app"
+  },
+  // Inclui todos os arquivos .ts dentro da pasta backend/src e suas subpastas.
+  "include": [
+    "./backend/**/*.ts",
+  ],
+  // Exclui arquivos de módulos (node_modules) e arquivos de teste (se existir) da compilação.
+  "exclude": [
+    "node_modules",
+    "backend/**/*.spec.ts"
+  ]
+}
