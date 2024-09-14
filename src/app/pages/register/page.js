@@ -42,19 +42,19 @@ export default function Register() {
               </div>
 
               <button className='btn_login'>
-                <p>Login with Google</p>
+                <p>Register with Google</p>
                 <FontAwesomeIcon icon={faGoogle} className='icon_style' />
               </button>
               <button className='btn_login'>
-                <p>Login with GitHub</p>
+                <p>Register with GitHub</p>
                 <FontAwesomeIcon icon={faGithub} className='icon_style' />
               </button>
               <button className='btn_login'>
-                <p>Login with LinkedIn</p>
+                <p>Register with LinkedIn</p>
                 <FontAwesomeIcon icon={faLinkedin} className='icon_style' />
               </button>
               <button className='btn_login'>
-                <p>Login with Facebook</p>
+                <p>Register with Facebook</p>
                 <FontAwesomeIcon icon={faFacebookF} className='icon_style' />
               </button>
 
